@@ -435,7 +435,11 @@ background-color: var(--dk-blue);
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
-    
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    filter: var(--filter-shadow-sm);
 }
 
 #section3 div::before{
