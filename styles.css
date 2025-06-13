@@ -481,6 +481,17 @@ background-color: var(--dk-blue);
         - move this to the right from its original location by 25px
 */
 #section3 div::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--lt-blue);
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    top: -50px; /* move up */
+    left: 25px; /* move right */
+    box-shadow: var(--box-shadow-sm);
 }
 
 
@@ -502,6 +513,7 @@ background-color: var(--dk-blue);
             - left: 0
 */
 #section4 p:last-of-type{
+    margin: 1rem 0;         
 
 }
 
@@ -539,6 +551,7 @@ background-color: var(--dk-blue);
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+background: var(--lt-blue) center repeat url("images/puppy-photo.jpg");
     
 }
 
